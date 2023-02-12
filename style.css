@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #5E6CEA;
+    color: white;
+  }
+  .content {
+    display: inline-block;
+    margin-top: 25px;
+  }
+  .alg{
+    display: flex;
+    flex-direction: row;
+  }
+  .alg1{
+    display: flex;
+    border: solid 1px;
+    width: 140px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .alg2 {
+    display: flex;
+    width: 140px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  .box{
+    width: 850px;
+    height: 100vh;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+  }
+  h2{
+    font-size: 24px;
+    width:550px;
+    height: 53px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  
+  
+  button{
+    width: 90px;
+    height: 40px;    
+    font-size: 11px;
+    border-radius: 20px;
+    border: none;
+    background: #3f48f3;
+    color: white; 
+    cursor: pointer;  
+    transition: 0.5s; 
+  }
+  button:hover {
+    background: #2d33ac;
+    
+  }
+ @media screen and (min-width: 768px) and (max-width: 1024px) {  
+  .box {
+    width: 760px;
+  }
+ }
+
+ @media screen and (max-width: 768px) {
+  .box {
+    width: 370px;
+    padding: 10px;
+    top: 10px;
+  }
+  .content {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .alg {
+    display: block;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    
+  }
+  .alg1 {
+    border: none;
+    height: 20px;
+  }
+  .alg2 {
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  h2 {
+    font-size: 16px;
+    width: 320px;
+  }
+  button {
+    height: 20px;
+  }
+  .mobilca {
+    display: none;
+  }
+  .clear {
+    display: block;
+    padding: 5px;
+  }
+ }
